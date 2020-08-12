@@ -21,9 +21,7 @@ class Logger:
         write_file.close()
 
     def generate_entry(self):
-        id = randint(0,1000)
-        description = "I am running!"
-        category = "GAMING"
-        time_spent = randrange(0.0,3.0)
-        return "\n" + str(id) + description + category + str(time_spent)
+        entry = Entry()
+        entry.randomize()
+        return "\n" + str(entry.id) + entry.desc + entry.category + str(entry.timespent)
         # return Entry(id, description, category, time_spent)

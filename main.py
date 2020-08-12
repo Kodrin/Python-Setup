@@ -1,17 +1,46 @@
-# basic library for mathematical operations
-# import tkinter as tk
-import math
-from core.logger import Logger
+import keyboard as key              # for keyboard input
+from core.logger import Logger      # logging module
 
-sample_file = open("data/sample.txt", "r+")
+APP_RUNNING = True                  # app macros
+AWAKE_CALLED = False
+START_CALLED = False
 
-for line in sample_file.readlines():
-    print(line)
+# called once before start
+def awake():
+    global AWAKE_CALLED
+    if AWAKE_CALLED is False:
+        AWAKE_CALLED = True
+        print("[AWAKE HAS BEEN CALLED]")
 
-sample_file.close()
+# called once after awake
+def start():
+    global START_CALLED
+    if START_CALLED is False:
+        START_CALLED = True
+        print("[START HAS BEEN CALLED]")
+        # do something here
 
-LOGGER = Logger("something")
-LOGGER.generate_logs(10)
+# main loop
+def update():
+    global APP_RUNNING
+    while APP_RUNNING is True:
+        # my_name = input()
+        # print(my_name)
+        if key.is_pressed("e"):
+            APP_RUNNING = False
+
+# called once on last framee
+def exit():
+    global APP_RUNNING
+    if APP_RUNNING is False:
+        print("[APP HAS EXITED]")
+
+
+# execution
+awake()
+start()
+update()
+exit()
 
 # print("Hello, World!")
 # print("my name is codrin!")
