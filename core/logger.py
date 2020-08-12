@@ -1,14 +1,20 @@
+from core.base.scriptbase import ScriptBase
 from core.entry import Entry
 
 from random import randint, randrange
 from core import entry
 
-class Logger:
+class Logger(ScriptBase):
     DATA_PATH = "/data"
+    FILE_NAME = "log_file.txt"
+    LOG_AMOUNT = 100
 
-    def __init__(self, filename):
-        self.filename = filename
+    # def __init__(self, filename):
+    #     self.filename = filename
 
+    def start(self):
+        self.generate_logs(self.LOG_AMOUNT)
+        print("## Generating Logs ##")
 
     def generate_logs(self, log_amount):
         LOG = ""

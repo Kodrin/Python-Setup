@@ -1,48 +1,46 @@
+# LIBRARIES IMPORT
+import macro
 import keyboard as key              # for keyboard input
+from core.input.input import Input
 from core.logger import Logger      # logging module
 
-APP_RUNNING = True                  # app macros
-AWAKE_CALLED = False
-START_CALLED = False
+# CLASS INSTANCES
+macro.init()
+input = Input()
+logger = Logger()
 
+
+# EXECUTION FLOW
 # called once before start
 def awake():
-    global AWAKE_CALLED
-    if AWAKE_CALLED is False:
-        AWAKE_CALLED = True
+    if macro.AWAKE_CALLED is False:
+        macro.AWAKE_CALLED = True
         print("[AWAKE HAS BEEN CALLED]")
 
 # called once after awake
 def start():
-    global START_CALLED
-    if START_CALLED is False:
-        START_CALLED = True
+    if macro.START_CALLED is False:
+        macro.START_CALLED = True
+        logger.start()
         print("[START HAS BEEN CALLED]")
         # do something here
 
 # main loop
 def update():
-    global APP_RUNNING
-    while APP_RUNNING is True:
-        # my_name = input()
-        # print(my_name)
-        if key.is_pressed("e"):
-            APP_RUNNING = False
+    while macro.APP_RUNNING is True:
+        input.update()
 
 # called once on last framee
 def exit():
-    global APP_RUNNING
-    if APP_RUNNING is False:
-        print("[APP HAS EXITED]")
+    if macro.APP_RUNNING is False:
+        if macro.EXIT_CALLED is False:
+            macro.EXIT_CALLED = True
+            print("[APP HAS EXITED]")
 
 
-# execution
+# EXCECUTION
 awake()
 start()
 update()
 exit()
 
-# print("Hello, World!")
-# print("my name is codrin!")
-# print("this is a basic python learning project")
-# print("just for fun!")

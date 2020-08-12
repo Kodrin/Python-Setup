@@ -1,0 +1,12 @@
+# FOR DEFINING GLOBAL MACROS THAT AFFECT THE ENTERITY OF THE PROGRAM
+
+def init():
+    global APP_RUNNING
+    global AWAKE_CALLED
+    global START_CALLED
+    global EXIT_CALLED
+
+    APP_RUNNING = True
+    AWAKE_CALLED = False
+    START_CALLED = False
+    EXIT_CALLED = False
