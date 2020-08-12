@@ -29,5 +29,26 @@ class Logger(ScriptBase):
     def generate_entry(self):
         entry = Entry()
         entry.randomize()
-        return "\n" + str(entry.id) + entry.desc + entry.category + str(entry.timespent)
+
+        entry_id = self.column_format(entry.id, 10)
+        entry_desc = self.column_format(entry.desc, 30)
+        entry_category = self.column_format(entry.category, 15)
+        entry_timespent = self.column_format(entry.timespent, 10)
+
+        return "\n" + entry_id + entry_category + entry_timespent + entry_desc
         # return Entry(id, description, category, time_spent)
+
+    def column_format(self, value, length):
+        column_length = length                      # how many characters wide
+        string_value = str(value)
+        string_value_len = len(string_value)
+
+        if string_value_len > column_length:
+            return string_value[0:column_length] #truncated value to column length
+        elif string_value_len < column_length:
+            difference = column_length - string_value_len
+            for _ in range(difference):
+                string_value += " "
+            return string_value
+
+        return string_value

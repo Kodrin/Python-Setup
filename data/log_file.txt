@@ -1,101 +1,101 @@
 
-0researched how to walkPHOTOGRAPHY1
-708took pics of my feetCODING2
-757researched how to walkR&D1
-111played chess with myselfCODING1
-391played chess with myselfPHOTOGRAPHY1
-902played chess with myselfCODING0
-752refactored some codeCOOKING3
-132played chess with myselfGAMING1
-73took pics of my feetGAMING1
-793researched how to walkCOOKING0
-115researched how to walkGAMING3
-771made coconut curryCODING0
-532researched how to walkR&D1
-661took pics of my feetCOOKING0
-527took pics of my feetCOOKING1
-598took pics of my feetPHOTOGRAPHY0
-461took pics of my feetCODING2
-698made coconut curryCODING3
-816took pics of my feetCOOKING1
-611took pics of my feetCODING2
-167refactored some codeR&D2
-921played chess with myselfCOOKING1
-594played chess with myselfCODING0
-874played chess with myselfPHOTOGRAPHY3
-754refactored some codePHOTOGRAPHY3
-942played chess with myselfR&D1
-494played chess with myselfPHOTOGRAPHY0
-611played chess with myselfCOOKING3
-496played chess with myselfCODING0
-310made coconut curryCOOKING1
-526took pics of my feetR&D1
-501played chess with myselfCOOKING0
-604researched how to walkR&D0
-797took pics of my feetCODING2
-638made coconut curryCOOKING1
-427took pics of my feetR&D1
-982made coconut curryCODING2
-879refactored some codeR&D0
-607played chess with myselfGAMING3
-217researched how to walkPHOTOGRAPHY2
-482took pics of my feetR&D2
-403made coconut curryPHOTOGRAPHY1
-376played chess with myselfCODING3
-328took pics of my feetCODING3
-933made coconut curryR&D0
-10researched how to walkCODING1
-517refactored some codeR&D1
-689played chess with myselfR&D3
-488played chess with myselfR&D2
-18researched how to walkPHOTOGRAPHY0
-456took pics of my feetR&D1
-412refactored some codeCODING0
-791refactored some codePHOTOGRAPHY2
-796refactored some codePHOTOGRAPHY3
-278took pics of my feetCODING2
-513took pics of my feetGAMING0
-821played chess with myselfCODING3
-762made coconut curryCODING1
-766refactored some codeR&D1
-68took pics of my feetCODING3
-343made coconut curryCOOKING1
-278refactored some codeGAMING0
-429played chess with myselfGAMING0
-950made coconut curryCOOKING1
-470made coconut curryCOOKING0
-431played chess with myselfR&D1
-103played chess with myselfR&D3
-905refactored some codeCODING0
-909took pics of my feetCOOKING2
-486researched how to walkCOOKING2
-898researched how to walkR&D3
-419took pics of my feetPHOTOGRAPHY1
-199researched how to walkGAMING1
-533took pics of my feetGAMING1
-900played chess with myselfCOOKING2
-614played chess with myselfR&D1
-212took pics of my feetCODING0
-951made coconut curryR&D1
-700refactored some codeCOOKING1
-284played chess with myselfGAMING3
-152played chess with myselfR&D2
-977refactored some codePHOTOGRAPHY1
-141took pics of my feetGAMING1
-722researched how to walkCOOKING1
-385took pics of my feetPHOTOGRAPHY0
-388made coconut curryGAMING0
-378played chess with myselfPHOTOGRAPHY0
-591played chess with myselfGAMING3
-402refactored some codePHOTOGRAPHY1
-914researched how to walkCOOKING1
-498refactored some codeCODING1
-896took pics of my feetCOOKING2
-385made coconut curryGAMING0
-571made coconut curryCOOKING1
-565researched how to walkR&D3
-349played chess with myselfGAMING0
-62played chess with myselfPHOTOGRAPHY1
-363researched how to walkCODING1
-38refactored some codeCODING2
-585played chess with myselfGAMING3
+642       READING        0.75      researched how to walk        
+989       READING        0.75      made coconut curry            
+862       GAMING         1.25      refactored some code          
+199       TRAVEL         0.75      refactored some code          
+292       EXERCISE       2.75      refactored some code          
+683       CODING         0.25      played chess with myself      
+687       TRAVEL         1.25      refactored some code          
+546       CODING         0.75      played chess with myself      
+381       READING        2.0       took pics of my feet          
+432       PHOTOGRAPHY    0.25      took pics of my feet          
+343       LEARNING       1.5       made coconut curry            
+815       LEARNING       1.5       refactored some code          
+120       PHOTOGRAPHY    1.75      made coconut curry            
+635       PHOTOGRAPHY    2.0       played chess with myself      
+933       CODING         2.5       researched how to walk        
+700       DESIGN         1.25      refactored some code          
+531       R&D            1.5       refactored some code          
+523       CODING         0.75      researched how to walk        
+206       PHOTOGRAPHY    2.75      refactored some code          
+800       PHOTOGRAPHY    1.25      made coconut curry            
+19        PHOTOGRAPHY    2.0       researched how to walk        
+493       PHOTOGRAPHY    0.25      took pics of my feet          
+348       CODING         0.5       played chess with myself      
+954       CODING         0.25      refactored some code          
+253       READING        0.75      took pics of my feet          
+411       DESIGN         1.0       took pics of my feet          
+246       GAMING         2.0       played chess with myself      
+440       GAMING         1.25      made coconut curry            
+816       READING        0.25      took pics of my feet          
+590       COOKING        1.25      researched how to walk        
+263       EXERCISE       1.25      played chess with myself      
+924       CODING         3.0       researched how to walk        
+816       LEARNING       1.75      played chess with myself      
+632       GAMING         3.0       researched how to walk        
+466       READING        0.75      took pics of my feet          
+535       COOKING        2.5       played chess with myself      
+968       CODING         0.75      played chess with myself      
+287       R&D            1.5       played chess with myself      
+388       PHOTOGRAPHY    1.5       refactored some code          
+951       READING        2.5       played chess with myself      
+133       EXERCISE       1.5       played chess with myself      
+263       R&D            1.25      researched how to walk        
+822       R&D            0.75      played chess with myself      
+593       EXERCISE       3.0       researched how to walk        
+431       EXERCISE       0.25      took pics of my feet          
+910       TRAVEL         1.25      refactored some code          
+262       LEARNING       1.0       played chess with myself      
+750       READING        1.25      took pics of my feet          
+557       TRAVEL         0.25      took pics of my feet          
+836       EXERCISE       1.0       played chess with myself      
+183       COOKING        2.75      refactored some code          
+475       LEARNING       2.5       researched how to walk        
+392       COMMUTE        1.5       made coconut curry            
+756       READING        2.5       researched how to walk        
+625       LEARNING       1.75      played chess with myself      
+142       COOKING        2.5       refactored some code          
+826       R&D            1.25      researched how to walk        
+981       DESIGN         1.75      played chess with myself      
+995       COMMUTE        1.75      played chess with myself      
+298       PHOTOGRAPHY    3.0       played chess with myself      
+182       GAMING         1.75      made coconut curry            
+626       R&D            2.0       researched how to walk        
+924       EXERCISE       1.0       refactored some code          
+136       EXERCISE       2.0       played chess with myself      
+820       LEARNING       2.0       refactored some code          
+655       COMMUTE        1.0       researched how to walk        
+524       COMMUTE        0.5       played chess with myself      
+434       COMMUTE        2.5       researched how to walk        
+165       LEARNING       2.5       played chess with myself      
+815       COMMUTE        1.5       researched how to walk        
+15        READING        3.0       refactored some code          
+451       R&D            1.25      played chess with myself      
+591       EXERCISE       2.75      refactored some code          
+401       EXERCISE       2.0       played chess with myself      
+740       COOKING        0.25      refactored some code          
+854       COOKING        0.75      made coconut curry            
+934       COMMUTE        0.25      took pics of my feet          
+180       PHOTOGRAPHY    2.5       refactored some code          
+603       GAMING         0.5       made coconut curry            
+37        COMMUTE        1.5       researched how to walk        
+768       LEARNING       1.0       made coconut curry            
+153       CODING         2.25      researched how to walk        
+641       READING        0.25      refactored some code          
+185       LEARNING       2.5       researched how to walk        
+826       COMMUTE        1.75      refactored some code          
+401       LEARNING       1.0       made coconut curry            
+822       READING        1.0       took pics of my feet          
+329       READING        0.75      made coconut curry            
+817       DESIGN         2.75      played chess with myself      
+150       PHOTOGRAPHY    3.0       took pics of my feet          
+517       TRAVEL         0.25      took pics of my feet          
+20        COOKING        1.75      played chess with myself      
+209       CODING         1.25      played chess with myself      
+497       COOKING        1.25      refactored some code          
+971       CODING         1.5       made coconut curry            
+558       PHOTOGRAPHY    2.75      played chess with myself      
+430       R&D            1.5       researched how to walk        
+554       TRAVEL         1.25      played chess with myself      
+722       LEARNING       1.25      played chess with myself      
+108       COMMUTE        1.0       refactored some code          
