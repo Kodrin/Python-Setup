@@ -1,5 +1,50 @@
-#0        #R&D           #3.0      #researched how to walk       
-#1        #EXERCISE      #3.0      #made coconut curry           
-#2        #LEARNING      #1.5      #played chess with myself     
-#3        #TRAVEL        #1.25     #researched how to walk       
-#4        #GAMING        #0.5      #played chess with myself     
+#0        #EXERCISE      #1.5      #played chess with myself     
+#1        #COOKING       #1.75     #took pics of my feet         
+#2        #GAMING        #2.25     #took pics of my feet         
+#3        #TRAVEL        #1.0      #took pics of my feet         
+#4        #COMMUTE       #2.25     #researched how to walk       
+#5        #EXERCISE      #2.25     #played chess with myself     
+#6        #TRAVEL        #0.75     #refactored some code         
+#7        #R&D           #0.75     #took pics of my feet         
+#8        #R&D           #2.25     #refactored some code         
+#9        #EXERCISE      #0.5      #researched how to walk       
+#10       #TRAVEL        #2.25     #researched how to walk       
+#11       #COMMUTE       #3.0      #researched how to walk       
+#12       #COOKING       #1.75     #took pics of my feet         
+#13       #CODING        #1.75     #made coconut curry           
+#14       #CODING        #2.75     #played chess with myself     
+#15       #CODING        #2.75     #took pics of my feet         
+#16       #R&D           #1.25     #made coconut curry           
+#17       #READING       #2.25     #took pics of my feet         
+#18       #COMMUTE       #3.0      #took pics of my feet         
+#19       #LEARNING      #3.0      #researched how to walk       
+#20       #TRAVEL        #1.5      #researched how to walk       
+#21       #CODING        #1.25     #made coconut curry           
+#22       #CODING        #1.75     #researched how to walk       
+#23       #EXERCISE      #2.5      #took pics of my feet         
+#24       #EXERCISE      #1.75     #played chess with myself     
+#25       #CODING        #1.25     #researched how to walk       
+#26       #COOKING       #0.5      #researched how to walk       
+#27       #COMMUTE       #2.5      #took pics of my feet         
+#28       #READING       #2.75     #made coconut curry           
+#29       #PHOTOGRAPHY   #1.5      #played chess with myself     
+#30       #PHOTOGRAPHY   #2.75     #played chess with myself     
+#31       #COMMUTE       #0.75     #researched how to walk       
+#32       #COOKING       #0.75     #played chess with myself     
+#33       #COMMUTE       #0.5      #made coconut curry           
+#34       #COOKING       #0.25     #played chess with myself     
+#35       #READING       #3.0      #researched how to walk       
+#36       #R&D           #2.5      #made coconut curry           
+#37       #COMMUTE       #1.25     #played chess with myself     
+#38       #GAMING        #0.75     #refactored some code         
+#39       #COOKING       #3.0      #played chess with myself     
+#40       #COMMUTE       #2.75     #refactored some code         
+#41       #COMMUTE       #3.0      #researched how to walk       
+#42       #LEARNING      #1.0      #refactored some code         
+#43       #PHOTOGRAPHY   #0.25     #refactored some code         
+#44       #TRAVEL        #0.5      #took pics of my feet         
+#45       #DESIGN        #1.0      #refactored some code         
+#46       #TRAVEL        #3.0      #researched how to walk       
+#47       #COOKING       #3.0      #made coconut curry           
+#48       #PHOTOGRAPHY   #1.0      #made coconut curry           
+#49       #TRAVEL        #1.75     #researched how to walk       

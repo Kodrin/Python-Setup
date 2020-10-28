@@ -1,11 +1,13 @@
 # LIBRARIES IMPORT
 import macro
-import keyboard as key              # for keyboard input
+# from graphics.gui import Screen
+from graphics.pygletGUI import *
 from core.input.input import Input
 from core.logger import Logger      # logging module
 
 # CLASS INSTANCES
 macro.init()
+# screen = Screen(600,600,"Logger", "black")
 input = Input()
 logger = Logger()
 
@@ -39,8 +41,8 @@ def exit():
 
 
 # EXCECUTION
-awake()
-start()
-update()
-exit()
-
+# awake()
+# start()
+# update()
+# exit()
+#

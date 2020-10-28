@@ -5,32 +5,36 @@ class Logger(ScriptBase):
     DATA_PATH = "./data/"
     FILE_NAME = "log_file.txt"
     PATH_TO_FILE = DATA_PATH + FILE_NAME
-    LOG_AMOUNT = 5
+    LOG_AMOUNT = 50
     IDENTIFIER = "#"
+    ENTRIES = []
 
     def start(self):
-        print("## Generating Logs ##")
-        # self.generate_logs(self.LOG_AMOUNT)
-        self.read_logs()
-        print("~~ Generated Logs ~~")
+        self.generate_logs(self.LOG_AMOUNT)
+        # self.read_logs()
 
     def generate_logs(self, log_amount):
-        LOG = ""
+        print("## Generating Logs ##")
+        log_file = ""
         for _ in range(log_amount):
             new_log = self.generate_entry(_)
-            LOG += new_log
+            log_file += new_log
 
         write_file = open(self.PATH_TO_FILE, "w")
-        write_file.write(LOG)
+        write_file.write(log_file)
         write_file.close()
+        print("~~ Generated Logs ~~")
 
     def read_logs(self):
+        print("## Reading Logs ##")
         read_file = open(self.PATH_TO_FILE, "r")
+
         lines = read_file.readlines()
         for line in lines:
-            self.decode_entry(line)
+            self.ENTRIES.append(self.decode_entry(line))
 
         read_file.close()
+        print("~~ Done Reading Logs ~~")
 
     def generate_entry(self, index):
         entry = Entry()
@@ -64,6 +68,7 @@ class Logger(ScriptBase):
         return string_value
 
     def decode_entry(self, value):
+        entry = Entry()
         string_value = str(value)               # stringify data
         decoded_data_list = []                  # list for out decoded data
         data_list = string_value.split(self.IDENTIFIER)     # separate based on identifier
@@ -73,5 +78,10 @@ class Logger(ScriptBase):
             decoded_data_list.append(element)
 
         decoded_data_list.remove("")            # remove empty elements from list
-        print (decoded_data_list)
 
+        entry.id = decoded_data_list[0]
+        entry.category = decoded_data_list[1]
+        entry.timespent = decoded_data_list[2]
+        entry.desc = decoded_data_list[3]
+
+        return entry
